@@ -3,6 +3,8 @@
 # Copyright 2022 Wen-Chin Huang (Nagoya University)
 #  MIT License (https://opensource.org/licenses/MIT)
 
+# source /Users/grantbrown/Documents/Dissertation/seq2seq-vc/tools/venv/bin/activate
+
 . ./path.sh || exit 1;
 . ./cmd.sh || exit 1;
 
@@ -17,7 +19,7 @@ conf=conf/vtn.tts_pt.v1.yaml
 
 # dataset configuration
 arctic_db_root=../../arctic/vc1/downloads       # default saved here
-db_root=/data/group1/z44476r/Corpora/l2-arctic  # PLEASE CHANGE THIS
+db_root=../../arctic/vc1/  # PLEASE CHANGE THIS
 dumpdir=dump                                    # directory to dump full features
 srcspk=TXHC
 trgspk=bdl
