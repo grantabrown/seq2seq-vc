@@ -12,7 +12,7 @@ import re
 import sys
 import tarfile
 
-from distutils.version import LooseVersion
+from packaging.version import parse as LooseVersion
 from filelock import FileLock
 
 import h5py

@@ -4,6 +4,10 @@
 # Copyright 2022 Wen-Chin Huang
 #  MIT License (https://opensource.org/licenses/MIT)
 
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../..')))
+
 import argparse
 import os
 import textgrid
